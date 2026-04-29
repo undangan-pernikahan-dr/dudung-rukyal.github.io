@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dudung & Rokyal</title>
+
+    <!-- OPEN GRAPH (WA preview) -->
+  <meta property="og:title" content="Dudung & Rukyal" />
+  <meta property="og:description" content="3 Mei 2026" />
+  <meta property="og:image" content="https://undanganpernikahan-dudung-rukyal.github.io/img/11.jpeg" />
+  <meta property="og:url" content="https://undanganpernikahan-dudung-rukyal.github.io" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="countdown/default.min.css" />
+    <script src="countdown/simplyCountdown.umd.js"></script>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center"
+    >
+      <main>
+        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h1>Dudung & Rukyal</h1>
+        <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
+      </main>
+    </section>
+
+    <nav
+      class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Wedding</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Wedding</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>Diselenggarakan pada 3 Mei 2026 di Dasan Baru, Kec.Keruak</h3>
+            <p>
+              Oleh karna itu dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu/saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Lalu.Dudung Purwantara</h3>
+                <p>Bpk. L. Kamaruddin  & Ibu. Rus Mala Dewi </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/dudung.jpg"
+                  alt="Nobita"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/Rukyal.jpg"
+                  alt="Shizuka"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Rukyal Aini</h3>
+                <p>Bpk. Halidin & Ibu. Munilam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Dasan Baru, Keruak, Kabupaten Lombok Timur, Nusa Tenggara
+              Barat.
+            </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d31545.49987733989!2d116.4657627!3d-8.7684244!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwNDYnMDYuOSJTIDExNsKwMjknMTAuOCJF!5e0!3m2!1sid!2sid!4v1777487721545!5m2!1sid!2sid" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <a
+              href="https://maps.app.goo.gl/AZMkGMGeg1PvtXGY7"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka peta</a
+            >
+            <p class="description">
+              Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di
+              tujuan namun tidak ada tanda-tanda sedang dilangsungkan
+              pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08:00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 3 Mei 2026</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan
+                dan kekhusyuan seluruh prosesi.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>10:00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 3 Mei 2026</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara berlangsung diharapkan untuk kondusif untuk menjaga seluruh prosesi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memori Kami</span>
+            <h2>Gallery Foto</h2>
+            <p>Rangkaian potret yang merekam kebersamaan kami, dipersembahkan sebagai ungkapan rasa syukur dan kebahagiaan.</p>
+          </div>
+        </div>
+
+        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
+          <div class="col mt-3">
+              <img src="img/galerry/4.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/11.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/5.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/7.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/9.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/d2.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/dudung 1.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/r3.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/r4.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+          <div class="col mt-3">
+              <img src="img/galerry/3.jpeg" alt="Dudung & Rukyal" class="img-fluid w-100 rounded">
+          </div>
+         
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+      <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran.</p>
+          </div>
+        </div>
+
+        <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbwQlXmxVtdmXcAVNkjUaOmeiZxto0VMEJ6JJJFGBQSqIUQ2TBB8tGkpTe0XSxVWhcEH/exec" id="my-form">
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama">
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primery">Kirim</button>
+          </div>
+        </form>
+
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block">&copy; 2026 Dudung & Rukyal Wedding. All Rights Reserved.</small>
+            <small class="block">Design by <a href="https://instagram.com/Arya Saputra">@arya_5a</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay lopp>
+        <source src="audio/Rizky Febian Feat. Mahalini - Bermuara [Official Lyric Video].mp3" type="audio/mp3">
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none;">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous">
+    </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2026,
+        month: 5,
+        day: 3,
+        hour: 0,
+        word: {
+          day: { singular: "hari", plural: "hari" },
+          hour: { singular: "jam", plural: "jam" },
+          minute: { singular: "menit", plural: "menit" },
+          second: { singular: "detik", plural: "detik" },
+        },
+      });
+    </script>
+
+    <script>
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
+
+      offcanvas.addEventListener('show.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'visible';
+      });
+      
+      offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+        stickyTop.style.overflow = 'hidden';
+      });
+      
+
+    </script>
+
+  <script>
+    const rootElement = document.querySelector(":root");
+    const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+    const audioIcon = document.querySelector('.audio-icon-wrapper i');
+    const song = document.querySelector('#song');
+    let isPlaying = false;
+
+    function disableScroll() {
+      scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+      
+      window.onscroll = function () {
+        window.scrollTo(scrollTop, scrollLeft);
+      }
+      
+        rootElement.style.scrollBehavior = 'auto';
+      }
+      
+      function enableScroll() {
+        window.onscroll = function () { }
+        rootElement.style.scrollBehavior = 'smooth';
+        playAudio();
+        isPlaying = true;
+      }
+
+      function playAudio() {
+        song.volume = 0.5;
+        audioIconWrapper.style.display = 'flex';
+        song.play();
+      }
+
+      audioIconWrapper.onclick = function() {
+        if (isPlaying) {
+          song.pause();
+          audioIcon.classList.remove('bi-disc');
+          audioIcon.classList.add('bi-pause-circle');
+        } else {
+          song.play();
+          audioIcon.classList.add('bi-disc');
+          audioIcon.classList.remove('bi-pause-circle');
+        }
+
+        isPlaying = !isPlaying;
+      }
+
+        disableScroll();  
+    </script>
+
+    <script>
+      window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Konfirmasi Kehadiran Berhasil");
+    })
+  });
+});
+
+    </script>
+  </body>
+</html>
